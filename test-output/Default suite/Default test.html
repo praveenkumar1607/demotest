@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 22 14:47:22 IST 2016</td>
+<td>Started on:</td><td>Mon Apr 25 11:48:11 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>209 seconds (209106 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6142 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Basictest.Testobjectdemo.f()'><b>f</b><br>Test class: Basictest.Testobjectdemo</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 244 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+<td title='Basictest.Dom.f()'><b>f</b><br>Test class: Basictest.Dom</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Activity used to start app doesn&apos;t exist or cannot be launched! Make sure it exists and is a launchable activity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.40 seconds
 Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
 System info: host: &apos;BLT0005-PC&apos;, ip: &apos;192.168.1.250&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{appPackage=com.example.android.testing.unittesting.BasicSample, app=/tmp/apks-LG_Nexus_4_E960_real/com.example.android.testing.unittesting.BasicSample.apk, networkConnectionEnabled=true, testobject_app_id=1, testobject_test_report_url=https://app.testobject.com/#/jessy/basic-unittest/appium/executions/15, warnings={}, testobject_device=LG_Nexus_4_E960_real, testobject_device_session_id=ff36a881-48aa-4f78-944f-7f98af836478, databaseEnabled=false, adbPort=15008, deviceName=008581c08ad541d7, platform=LINUX, appActivity=com.example.android.testing.unittesting.BasicSample.MainActivity, desired={appPackage=com.example.android.testing.unittesting.BasicSample, appActivity=com.example.android.testing.unittesting.BasicSample.MainActivity, app=/tmp/apks-LG_Nexus_4_E960_real/com.example.android.testing.unittesting.BasicSample.apk, testobject_app_id=1, testobject_appium_version=1.5.0, platformVersion=4.3.0, testobject_device=LG_Nexus_4_E960_real, testobject_api_key=856FE7E69889478A84565D39EFFEB085, platformName=Android, adbPort=15008, deviceName=LG_Nexus_4_E960_real}, testobject_appium_version=1.5.0, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, testobject_api_key=856FE7E69889478A84565D39EFFEB085, platformName=Android, testobject_test_live_view_url=https://app.testobject.com/#/jessy/basic-unittest/appium/view/15}]
-Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
-*** Element info: {Using=name, value=Save}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -92,11 +88,10 @@ Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Basictest.Testobjectdemo.f(Testobjectdemo.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at Basictest.Dom.f(Dom.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -122,16 +117,12 @@ Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1072377306", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1072377306'><pre>org.openqa.selenium.InvalidSelectorException: Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 244 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+</pre></div><a href='#' onClick='toggleBox("stack-trace555273695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace555273695'><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Activity used to start app doesn&apos;t exist or cannot be launched! Make sure it exists and is a launchable activity) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.40 seconds
 Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
 System info: host: &apos;BLT0005-PC&apos;, ip: &apos;192.168.1.250&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_05&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{appPackage=com.example.android.testing.unittesting.BasicSample, app=/tmp/apks-LG_Nexus_4_E960_real/com.example.android.testing.unittesting.BasicSample.apk, networkConnectionEnabled=true, testobject_app_id=1, testobject_test_report_url=https://app.testobject.com/#/jessy/basic-unittest/appium/executions/15, warnings={}, testobject_device=LG_Nexus_4_E960_real, testobject_device_session_id=ff36a881-48aa-4f78-944f-7f98af836478, databaseEnabled=false, adbPort=15008, deviceName=008581c08ad541d7, platform=LINUX, appActivity=com.example.android.testing.unittesting.BasicSample.MainActivity, desired={appPackage=com.example.android.testing.unittesting.BasicSample, appActivity=com.example.android.testing.unittesting.BasicSample.MainActivity, app=/tmp/apks-LG_Nexus_4_E960_real/com.example.android.testing.unittesting.BasicSample.apk, testobject_app_id=1, testobject_appium_version=1.5.0, platformVersion=4.3.0, testobject_device=LG_Nexus_4_E960_real, testobject_api_key=856FE7E69889478A84565D39EFFEB085, platformName=Android, adbPort=15008, deviceName=LG_Nexus_4_E960_real}, testobject_appium_version=1.5.0, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, testobject_api_key=856FE7E69889478A84565D39EFFEB085, platformName=Android, testobject_test_live_view_url=https://app.testobject.com/#/jessy/basic-unittest/appium/view/15}]
-Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
-*** Element info: {Using=name, value=Save}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -139,11 +130,10 @@ Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at Basictest.Testobjectdemo.f(Testobjectdemo.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at Basictest.Dom.f(Dom.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -170,8 +160,8 @@ Session ID: 88e84779-61fd-46e6-b2a3-89c5b887ad8f
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
-<td>209</td>
-<td>Basictest.Testobjectdemo@3bfdc050</td></tr>
+<td>6</td>
+<td>Basictest.Dom@3bfdc050</td></tr>
 </table><p>
 </body>
 </html>
