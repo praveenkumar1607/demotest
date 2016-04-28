@@ -38,8 +38,8 @@ public class Testobjectdemo {
 			 cap.setCapability("appPackage","com.example.android.testing.unittesting.BasicSample");
 			// cap.setCapability("app", cap.getAbsolutePath());
 		     cap.setCapability("appActivity","com.example.android.testing.unittesting.BasicSample.MainActivity");
-			driver=new RemoteWebDriver(new URL("https://app.testobject.com:443/api/appium/wd/hub"),cap);
-			 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//	driver=new RemoteWebDriver(new URL("https://app.testobject.com:443/api/appium/wd/hub"),cap);
+		//	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			 driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id,':id/userNameInput')]")).sendKeys("PRAVEEN");
 		
 			// driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id,':id/userNameInput')]")).sendKeys("ashok")
